@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#contato {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+#contato p {
+    color: #666;
+    margin: 10px 0;
+}
+
+#contato a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo dos inputs, textarea e button dentro de form */
+form input, form textarea, form button { 
+    display: block; /* Faz com que os elementos fiquem em bloco */
+    width: 20rem; /* Largura */
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+    padding: 0.5rem;   /* Espaçamento interno */
+ }
+ 
+ form textarea {
+     resize: none; /* Remove a opção de redimensionar */
+     height: 11.25rem; /* Altura */
+ }
+ 
+ form button {
+     background-color: #333; /* Cor de fundo */
+     color: #ecf0f1; /* Cor do texto */
+     border: none; /* Remove a borda */
+     cursor: pointer; /* Muda o cursor */
+ }
+ 
+ form button:hover {
+     background-color: #666; /* Cor de fundo */
+ }
