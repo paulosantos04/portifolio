@@ -1,5 +1,10 @@
+.imperial-script-regular {
+    font-family: "Delius", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Delius", serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
